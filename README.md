@@ -27,6 +27,22 @@ cp .env.example .env
 ```
 You'll have to set up an AppWrite account, and then add all of the details into your .env file.
 
+`.env` file must contain the following:
+```
+NEXT_PUBLIC_APPWRITE_URL='https://cloud.appwrite.io/v1'
+NEXT_PUBLIC_ENDPOINT=''
+NEXT_PUBLIC_DATABASE_ID=''
+
+NEXT_PUBLIC_COLLECTION_ID_PROFILE=''
+NEXT_PUBLIC_COLLECTION_ID_POST=''
+NEXT_PUBLIC_COLLECTION_ID_LIKE=''
+NEXT_PUBLIC_COLLECTION_ID_COMMENT=''
+
+NEXT_PUBLIC_BUCKET_NAME=""
+NEXT_PUBLIC_BUCKET_ID=''
+NEXT_PUBLIC_PLACEHOLDER_DEAFULT_IMAGE_ID=''
+```
+
 ## AppWrite Schema
 
 ### Database Name: tiktok-clone
