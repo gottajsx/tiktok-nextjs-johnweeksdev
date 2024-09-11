@@ -25,7 +25,7 @@ git clone https://github.com/John-Weeks-Dev/tiktok-clone-nextjs.git
 
 cp .env.example .env
 ```
-You'll have to set up an AppWrite account, and then add all of the details into your .env file.
+You'll have to set up an AppWrite account, and then add all of the details into your `.env` file.
 
 `.env` file must contain the following:
 ```
